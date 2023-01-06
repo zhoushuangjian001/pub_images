@@ -2,6 +2,11 @@
 
 语言:  [🇺🇸 English](https://pub.dev/packages/fam) | [🇨🇳 Chinese](https://github.com/zhoushuangjian001/pub_images/blob/master/fam/md/README.md)
 
+- **特别提示**
+  Fam 版本的升级方法如下:
+  1. Fam 版本小于 1.0.5 的用户使用 `flutter pub global activate fam` 更新。
+  2. Fam 版本大于等于 1.0.5 的用户可使用 `fam --update` 或者 `fam --update x.x.x` 更新。
+
 - **Fam 基本简介**    
   
   Fam 是专为 Flutter 项目资产管理设计的脚本服务。该服务具有功能齐全、操作方便、支持多种平台、界面优美、可自定义化强等特点。
@@ -18,6 +23,9 @@
   ![fam - help](https://github.com/zhoushuangjian001/pub_images/blob/master/fam/image/pub-catch.png)     
   按照上面提示配置即可。
 
+  **window 用户:**
+  ![fam - window](https://github.com/zhoushuangjian001/pub_images/blob/master/fam/image/fam-window.png)     
+  按照上面提示配置即可。
 
 - **Fam 指令**
   1. **`fam` or `fam --help` or `fam -h`**       
@@ -54,7 +62,15 @@
   6. **`fam rename`**
    对项目资产管理的文件进行重命名或者对资产管理类进行重命名。有 `fam rename file xx` 和 `fam rename class xx`  两个指令。
   7. **`fam delete`** 
-   删除项目的资源文件。有 `fam delete file xx` 和 `fam delete mfile xx` 两个指令。 `delete file` 是删除单个资源文件; `delete mfile`  是删除多个资源文件。
+   删除项目的资源文件。有 `fam delete file xx` 和 `fam delete mfile xx` 两个指令。 `delete file` 是删除单个资源文件; `delete mfile`  是删除多个资源文件。    
+
+  注意: 以下指令需要在 Fam 版本 大于等于 1.0.5 才可以使用     
+  8. **`fam --version`**     
+   获取当前安装 Fam 的版本。     
+  9. **`fam --releases`**     
+   获取 Fam 可安装的所有稳定版本。    
+  10. **`fam --update` & `fam --update x.x.x`**          
+   进行 Fam 最新版本的升级，也可以自定义版本升级。
 
 - **Fam 优势**
   **Fam** 和其他插件对比，有以下优点。
